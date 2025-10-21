@@ -1,0 +1,49 @@
+{
+    "target": "scanme.nmap.org",
+    "ports": {
+        "scan_time": "2025-10-20 22:43:09",
+        "open_ports": [
+            {
+                "port": 22,
+                "service": "ssh",
+                "version": "6.6.1p1 Ubuntu 2ubuntu2.13"
+            },
+            {
+                "port": 80,
+                "service": "http",
+                "version": "2.4.7"
+            }
+        ],
+        "host_status": "up"
+    },
+    "dns": {
+        "scan_time": "2025-10-20 22:43:18",
+        "records": {
+            "A": [
+                "45.33.32.156"
+            ],
+            "AAAA": [
+                "2600:3c01::f03c:91ff:fe18:bb2f"
+            ],
+            "MX": [
+                "None found"
+            ],
+            "NS": [
+                "None found"
+            ],
+            "TXT": [
+                "None found"
+            ]
+        }
+    },
+    "whois": {
+        "scan_time": "2025-10-20 22:43:18",
+        "info": {
+            "domain": "nmap.org",
+            "registrar": "DYNADOT LLC",
+            "created": "1999-01-18 05:00:00+00:00",
+            "expires": "2029-01-18 05:00:00+00:00",
+            "country": "US"
+        }
+    }
+}

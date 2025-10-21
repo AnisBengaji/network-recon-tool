@@ -1,0 +1,59 @@
+{
+    "target": "192.168.0.23",
+    "ports": {
+        "scan_time": "2025-10-20 22:49:59",
+        "open_ports": [
+            {
+                "port": 135,
+                "service": "msrpc",
+                "version": ""
+            },
+            {
+                "port": 139,
+                "service": "netbios-ssn",
+                "version": ""
+            },
+            {
+                "port": 445,
+                "service": "microsoft-ds",
+                "version": ""
+            },
+            {
+                "port": 902,
+                "service": "vmware-auth",
+                "version": "1.10"
+            },
+            {
+                "port": 912,
+                "service": "vmware-auth",
+                "version": "1.0"
+            }
+        ],
+        "host_status": "up"
+    },
+    "dns": {
+        "scan_time": "2025-10-20 22:52:55",
+        "records": {
+            "A": [
+                "None found"
+            ],
+            "AAAA": [
+                "None found"
+            ],
+            "MX": [
+                "None found"
+            ],
+            "NS": [
+                "None found"
+            ],
+            "TXT": [
+                "None found"
+            ]
+        }
+    },
+    "whois": {
+        "scan_time": "2025-10-20 22:52:56",
+        "info": {},
+        "error": "Whois command returned no output"
+    }
+}
